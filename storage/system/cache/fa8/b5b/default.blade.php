@@ -1,6 +1,6 @@
 <?php 
 /* C:\Users\Akshay ffb\Desktop\Freelance\restaurant\themes\demo/_layouts/default.blade.php */
-class Pagic67bec4f85f924802003321_1fd8d11d596ce2e2797b1d164dbfdc0aClass extends \Main\Template\Code\LayoutCode
+class Pagic67c0a73d8a323214186813_9493bf8a0a33d8d319e97f2142597fc2Class extends \Main\Template\Code\LayoutCode
 {
 
 }
