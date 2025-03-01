@@ -1,4 +1,4 @@
-1740678561a:1:{s:31:"localbox\box_checkout.blade.php";a:5:{s:8:"fileName";s:31:"localbox\box_checkout.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1538:"<div class="panel">
+1740839623a:1:{s:31:"localbox\box_checkout.blade.php";a:5:{s:8:"fileName";s:31:"localbox\box_checkout.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1538:"<div class="panel">
     <div class="panel-body">
         <div class="title_box_checkout">
             <span class="h4">@lang('igniter.cart::default.checkout.text_order_details')</span>

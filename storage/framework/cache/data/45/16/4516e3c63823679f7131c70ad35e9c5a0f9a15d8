@@ -1,4 +1,4 @@
-1740678576a:1:{s:17:"default.blade.php";a:17:{s:8:"fileName";s:17:"default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1284:"---
+1740839631a:1:{s:17:"default.blade.php";a:17:{s:8:"fileName";s:17:"default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1284:"---
 description: 'Default layout'
 '[session]':
     security: all

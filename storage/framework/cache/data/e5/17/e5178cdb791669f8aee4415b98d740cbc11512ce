@@ -1,4 +1,4 @@
-1740682526a:1:{s:23:"layout/header.blade.php";a:6:{s:8:"fileName";s:23:"layout/header.blade.php";s:5:"mTime";i:1740682514;s:7:"content";s:2890:"---
+1740857173a:1:{s:23:"layout/header.blade.php";a:6:{s:8:"fileName";s:23:"layout/header.blade.php";s:5:"mTime";i:1740856377;s:7:"content";s:2876:"---
 description: ''
 ---
 <header class="th-header header-layout1">
@@ -33,7 +33,7 @@ description: ''
     <div class="menu-area">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-auto w-auto">
+          <div class="col-auto">
             <div class="header-logo">
               @partial('layout/logo')
             </div>
@@ -48,9 +48,9 @@ description: ''
 
           <div class="col-auto d-none d-xl-block">
             <div class="header-button">
-              <button type="button" class="simple-icon searchBoxToggler">
+              <!-- <button type="button" class="simple-icon searchBoxToggler">
                 <i class="far fa-search"></i>
-              </button>
+              </button> -->
               <button type="button" class="simple-icon sideMenuToggler">
                 <span class="badge">5</span>
                 <i class="fa-regular fa-cart-shopping"></i>
@@ -59,7 +59,6 @@ description: ''
               @php
               $menuItems = collect($mainMenu->menuItems());
               $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
-              
               @endphp
 
               @if ($viewMenuItem)
@@ -73,7 +72,7 @@ description: ''
       </div>
     </div>
   </div>
-</header>";s:6:"markup";s:2865:"
+</header>";s:6:"markup";s:2851:"
 <header class="th-header header-layout1">
   <div class="header-top">
     <div class="container">
@@ -106,7 +105,7 @@ description: ''
     <div class="menu-area">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-auto w-auto">
+          <div class="col-auto">
             <div class="header-logo">
               @partial('layout/logo')
             </div>
@@ -121,9 +120,9 @@ description: ''
 
           <div class="col-auto d-none d-xl-block">
             <div class="header-button">
-              <button type="button" class="simple-icon searchBoxToggler">
+              <!-- <button type="button" class="simple-icon searchBoxToggler">
                 <i class="far fa-search"></i>
-              </button>
+              </button> -->
               <button type="button" class="simple-icon sideMenuToggler">
                 <span class="badge">5</span>
                 <i class="fa-regular fa-cart-shopping"></i>
@@ -132,7 +131,6 @@ description: ''
               @php
               $menuItems = collect($mainMenu->menuItems());
               $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
-              
               @endphp
 
               @if ($viewMenuItem)

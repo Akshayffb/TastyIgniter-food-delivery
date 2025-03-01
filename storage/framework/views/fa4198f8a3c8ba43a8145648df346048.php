@@ -3,7 +3,7 @@
 Hero Area
 ==============================-->
 <div class="conatiner">
-    <div class="th-hero-wrapper hero-1" id="hero" data-bg-src="assets/img/hero/hero_bg_1_2.jpg">
+    <div class="th-hero-wrapper hero-1" id="hero" data-bg-src="themes/demo/assets/img/hero/hero_bg_1_2.jpg">
         <div class="swiper th-slider" id="heroSlide1" data-slider-options='{"effect":"fade"}'>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -20,7 +20,7 @@ Hero Area
                                         Natural <span class="text-theme">Fruits</span> </span>
                                     <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">Vegetable</span>
                                 </h1>
-                                <a href="about.html" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
+                                <a href="/about" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
                                     More<i class="fas fa-chevrons-right ms-2"></i></a>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ Hero Area
                                         Organic <span class="text-theme">Fruits</span> </span>
                                     <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">For Health</span>
                                 </h1>
-                                <a href="about.html" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
+                                <a href="/about" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
                                     More<i class="fas fa-chevrons-right ms-2"></i></a>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ Hero Area
                                         Quality <span class="text-theme">Fruits</span> </span>
                                     <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">Farming</span>
                                 </h1>
-                                <a href="about.html" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
+                                <a href="/about" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Discover
                                     More<i class="fas fa-chevrons-right ms-2"></i></a>
                             </div>
                         </div>
@@ -192,13 +192,13 @@ About Area
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
                         <div class="img1">
-                            <img src="themes/demo/assets/img/normal/about_1_1.jpg" alt="About">
+                            <img src="themes/demo/assets/img/gallery/about-us-image.jpg" alt="About">
                         </div>
                         <div class="img2">
-                            <img src="themes/demo/assets/img/normal/about_1_2.jpg" alt="Image">
+                            <img src="themes/demo/assets/img/gallery/about-us-image2.jpg" alt="Image">
                         </div>
                         <div class="shape1 movingX">
-                            <img src="themes/demo/assets/img/normal/about_1_3.png" alt="Image">
+                            <img src="themes/demo/assets/img/hero/hero-section-image-1.png" alt="Image">
                         </div>
                         <div class="year-counter">
                             <div class="year-counter_number"><span class="counter-number">23</span>+</div>
@@ -233,8 +233,7 @@ About Area
                             </div>
                         </div>
                         <div>
-                            <a href="about.html" class="th-btn">Discover More<i
-                                    class="fas fa-chevrons-right ms-2"></i></a>
+                            <a href="/about" class="th-btn">Discover More<i class="fas fa-chevrons-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -248,19 +247,37 @@ Cta Area
         <div class="container z-index-common">
             <div class="row gy-30">
                 <div class="col-xl-6">
-                    <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/cta_bg_1_1.jpg">
+                    <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/fresh-salad.jpg">
                         <span class="h6 box-subtitle">Get Extra <span class="text-theme">50% Off</span></span>
                         <h3 class="box-title">Fresh Vegetable & <br> Organic Fruits</h3>
-                        <a href="shop-details.html" class="th-btn">Shop Now<i
-                                class="fas fa-chevrons-right ms-2"></i></a>
+
+                        <?php
+                        $menuItems = collect($mainMenu->menuItems());
+                        $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
+                        ?>
+
+                        <?php if($viewMenuItem): ?>
+                        <a href="<?php echo e($viewMenuItem->url); ?>" class="th-btn">
+                            Shop Now<i class="fas fa-chevrons-right ms-2"></i>
+                        </a>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/cta_bg_1_2.jpg">
+                    <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/green-vegs.jpg">
                         <span class="h6 box-subtitle">Get Extra <span class="text-theme">50% Off</span></span>
                         <h3 class="box-title">Green & Organic <br> Vegetables</h3>
-                        <a href="shop-details.html" class="th-btn">Shop Now<i
-                                class="fas fa-chevrons-right ms-2"></i></a>
+
+                        <?php
+                        $menuItems = collect($mainMenu->menuItems());
+                        $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
+                        ?>
+
+                        <?php if($viewMenuItem): ?>
+                        <a href="<?php echo e($viewMenuItem->url); ?>" class="th-btn">
+                            Shop Now<i class="fas fa-chevrons-right ms-2"></i>
+                        </a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -271,11 +288,11 @@ Cta Area
 Product Area
 ==============================-->
     <section class="bg-smoke2 space" id="shop-sec">
-        <div class="shape-mockup" data-top="0" data-left="0"><img src="themes/demo/assets/img/shape/vector_shape_1.png"
-                alt="shape">
+        <div class="shape-mockup" data-top="0" data-left="0"><img
+                src="themes/demo/assets/img/shape/Organic-salad-bg-img.jpg" alt="shape">
         </div>
         <div class="shape-mockup" data-bottom="0" data-right="0"><img
-                src="themes/demo/assets/img/shape/vector_shape_2.png" alt="shape"></div>
+                src="themes/demo/assets/img/shape/Organic-salad-bg-img2.jpg" alt="shape"></div>
         <div class="container text-center">
             <div class="title-area text-center">
                 <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Organic
@@ -291,7 +308,7 @@ Product Area
                 <button data-filter=".cat5" class="th-btn tab-btn" type="button">Salads</button>
             </div>
             <div class="row gy-4 filter-active">
-                <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
+                <!-- <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
                     <div class="th-product product-grid">
                         <div class="product-img">
                             <img src="themes/demo/assets/img/product/product_1_1.jpg" alt="Product Image">
@@ -315,7 +332,12 @@ Product Area
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+
+                <?php if(has_component('featuredItems')): ?>
+                <?php echo controller()->renderComponent('featuredItems'); ?>
+                <?php endif; ?>
 
                 <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat5 cat2">
                     <div class="th-product product-grid">
@@ -510,7 +532,8 @@ Feature Area
             <div class="row">
                 <div class="col-xl-6 text-center text-xl-start">
                     <div class="title-area">
-                        <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">Why Choose
+                        <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg"
+                                alt="shape">Why Choose
                             Us</span>
                         <h2 class="sec-title">Nourish Your Body with Pure Organic Goodness!</h2>
                         <p class="sec-text">Governments have regulations in place to ensure that products labeled as
@@ -558,7 +581,7 @@ Feature Area
                             <div class="img-box2-wrap">
                                 <div class="img-box2">
                                     <div class="img1">
-                                        <img src="themes/demo/assets/img/normal/why_1_1.png" alt="Why">
+                                        <img src="themes/demo/assets/img/normal/why-choose-us-image.jpg" alt="Why">
                                     </div>
                                     <div class="img2">
                                         <img src="themes/demo/assets/img/normal/why_1_2.png" alt="Why">
@@ -574,7 +597,7 @@ Feature Area
     <!--==============================
 Counter Area  
 ==============================-->
-    <div class="counter-sec1" data-bg-src="themes/demo/assets/img/bg/counter_bg_1.png">
+    <!-- <div class="counter-sec1" data-bg-src="themes/demo/assets/img/bg/counter_bg_1.png">
         <div class="container">
             <div class="counter-card-wrap">
                 <div class="counter-card">
@@ -619,14 +642,15 @@ Counter Area
                 <div class="divider"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--==============================
 Deal Area  
 ==============================-->
-    <section class="bg-top-center space-top" data-bg-src="themes/demo/assets/img/bg/deal_bg_1.jpg">
+    <!-- <section class="bg-top-center space-top" data-bg-src="themes/demo/assets/img/bg/deal_bg_1.jpg">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Best Deals</span>
+                <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Best
+                    Deals</span>
                 <h2 class="sec-title text-white">Best Deals of The Week!</h2>
             </div>
             <div class="row gy-40 justify-content-center">
@@ -776,22 +800,24 @@ Deal Area
 
             </div>
         </div>
-    </section><!--==============================
+    </section> -->
+    <!--==============================
 Team Area  
 ==============================-->
-    <section class="space">
+    <!-- <section class="space">
         <div class="container z-index-common">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-8">
                     <div class="title-area text-center">
-                        <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Team
+                        <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg"
+                                alt="Icon">Team
                             Members</span>
                         <h2 class="sec-title">We Have Awesome Team Here to Help You!</h2>
                     </div>
                 </div>
             </div>
             <div class="row gy-40 justify-content-center">
-                <!-- Single Item -->
+                
                 <div class="col-xl-4 col-md-6">
                     <div class="th-team team-card">
                         <div class="img-wrap">
@@ -813,7 +839,7 @@ Team Area
                     </div>
                 </div>
 
-                <!-- Single Item -->
+                
                 <div class="col-xl-4 col-md-6">
                     <div class="th-team team-card">
                         <div class="img-wrap">
@@ -835,7 +861,7 @@ Team Area
                     </div>
                 </div>
 
-                <!-- Single Item -->
+                
                 <div class="col-xl-4 col-md-6">
                     <div class="th-team team-card">
                         <div class="img-wrap">
@@ -859,15 +885,15 @@ Team Area
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!--==============================
 Testimonial Area  
 ==============================-->
-    <section class="overflow-hidden bg-smoke2" id="testi-sec">
-        <div class="shape-mockup testi-shape1" data-top="0" data-left="0"><img src="themes/demo/assets/img/normal/testi_shape.png"
-                alt="shape"></div>
-        <div class="shape-mockup" data-bottom="0" data-right="0"><img src="themes/demo/assets/img/shape/vector_shape_5.png"
-                alt="shape"></div>
+    <section class="overflow-hidden bg-smoke2 mb-5" id="testi-sec">
+        <div class="shape-mockup testi-shape1" data-top="0" data-left="0"><img
+                src="themes/demo/assets/img/normal/salad-review-img.jpg" alt="shape"></div>
+        <div class="shape-mockup" data-bottom="0" data-right="0"><img
+                src="themes/demo/assets/img/shape/vector_shape_5.png" alt="shape"></div>
         <div class="container">
             <div class="testi-card-area">
                 <div class="title-area">
@@ -928,10 +954,11 @@ Testimonial Area
     <!--==============================
 Blog Area  
 ==============================-->
-    <section class="space" id="blog-sec">
+    <!-- <section class="space" id="blog-sec">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">Blog & News</span>
+                <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">Blog &
+                    News</span>
                 <h2 class="sec-title">Latest Updates News & Articles</h2>
             </div>
             <div class="slider-area">
@@ -1054,6 +1081,6 @@ Blog Area
                         class="far fa-arrow-right"></i></button>
             </div>
         </div>
-    </section>
+    </section> -->
 
 </div>

@@ -1,4 +1,4 @@
-1740678561a:1:{s:28:"localbox\container.blade.php";a:5:{s:8:"fileName";s:28:"localbox\container.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:70:"<div id="local-box">    
+1740839623a:1:{s:28:"localbox\container.blade.php";a:5:{s:8:"fileName";s:28:"localbox\container.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:70:"<div id="local-box">    
 
     @partial($__SELF__.'::default')
 

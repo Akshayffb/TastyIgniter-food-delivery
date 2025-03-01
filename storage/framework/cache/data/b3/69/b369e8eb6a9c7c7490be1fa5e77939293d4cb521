@@ -1,4 +1,4 @@
-1740678561a:1:{s:27:"cartbox\container.blade.php";a:5:{s:8:"fileName";s:27:"cartbox\container.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:242:"<div class="{{ $pageIsCart ?: 'affix-cart d-none d-lg-block' }}">
+1740839622a:1:{s:27:"cartbox\container.blade.php";a:5:{s:8:"fileName";s:27:"cartbox\container.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:242:"<div class="{{ $pageIsCart ?: 'affix-cart d-none d-lg-block' }}">
     <div class="panel panel-cart">
         <div class="panel-body">
             @partial($__SELF__.'::default')

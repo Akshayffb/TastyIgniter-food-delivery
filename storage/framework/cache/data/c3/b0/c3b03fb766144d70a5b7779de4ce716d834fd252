@@ -1,4 +1,4 @@
-1740678561a:1:{s:23:"button_bottom.blade.php";a:5:{s:8:"fileName";s:23:"button_bottom.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2503:"<div class="footer-bar footer-bar2">
+1740839640a:1:{s:23:"button_bottom.blade.php";a:5:{s:8:"fileName";s:23:"button_bottom.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2503:"<div class="footer-bar footer-bar2">
     <div class="collapse" id="searchCollapse">
         
             @partial('localMenu::searchbar')

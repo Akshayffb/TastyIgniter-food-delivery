@@ -1,4 +1,4 @@
-1740678568a:1:{s:24:"cartBox/totals.blade.php";a:5:{s:8:"fileName";s:24:"cartBox/totals.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2144:"@if ($cart->count())
+1740839640a:1:{s:24:"cartBox/totals.blade.php";a:5:{s:8:"fileName";s:24:"cartBox/totals.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2144:"@if ($cart->count())
     <div class="cart-total">
         <div class="table-responsive">
             <table class="table table-none">

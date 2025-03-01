@@ -1,4 +1,4 @@
-1740678661a:1:{s:23:"layout\header.blade.php";a:6:{s:8:"fileName";s:23:"layout\header.blade.php";s:5:"mTime";i:1740674599;s:7:"content";s:2527:"---
+1740842385a:1:{s:23:"layout\header.blade.php";a:6:{s:8:"fileName";s:23:"layout\header.blade.php";s:5:"mTime";i:1740682514;s:7:"content";s:2890:"---
 description: ''
 ---
 <header class="th-header header-layout1">
@@ -38,26 +38,42 @@ description: ''
               @partial('layout/logo')
             </div>
           </div>
-          
+
           <div class="col-auto">
             @partial('layout/menu', ['items' => $mainMenu->menuItems()])
-            <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+            <button type="button" class="th-menu-toggle d-block d-lg-none">
+              <i class="far fa-bars"></i>
+            </button>
           </div>
+
           <div class="col-auto d-none d-xl-block">
             <div class="header-button">
-              <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+              <button type="button" class="simple-icon searchBoxToggler">
+                <i class="far fa-search"></i>
+              </button>
               <button type="button" class="simple-icon sideMenuToggler">
                 <span class="badge">5</span>
                 <i class="fa-regular fa-cart-shopping"></i>
               </button>
-              <a href="shop.html" class="th-btn style4">Shop Now<i class="fas fa-chevrons-right ms-2"></i></a>
+
+              @php
+              $menuItems = collect($mainMenu->menuItems());
+              $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
+              
+              @endphp
+
+              @if ($viewMenuItem)
+              <a href="{{ $viewMenuItem->url }}" class="th-btn style4">
+                Order Now <i class="fas fa-chevron-right ms-2"></i>
+              </a>
+              @endif
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</header>";s:6:"markup";s:2502:"
+</header>";s:6:"markup";s:2865:"
 <header class="th-header header-layout1">
   <div class="header-top">
     <div class="container">
@@ -95,19 +111,35 @@ description: ''
               @partial('layout/logo')
             </div>
           </div>
-          
+
           <div class="col-auto">
             @partial('layout/menu', ['items' => $mainMenu->menuItems()])
-            <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+            <button type="button" class="th-menu-toggle d-block d-lg-none">
+              <i class="far fa-bars"></i>
+            </button>
           </div>
+
           <div class="col-auto d-none d-xl-block">
             <div class="header-button">
-              <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+              <button type="button" class="simple-icon searchBoxToggler">
+                <i class="far fa-search"></i>
+              </button>
               <button type="button" class="simple-icon sideMenuToggler">
                 <span class="badge">5</span>
                 <i class="fa-regular fa-cart-shopping"></i>
               </button>
-              <a href="shop.html" class="th-btn style4">Shop Now<i class="fas fa-chevrons-right ms-2"></i></a>
+
+              @php
+              $menuItems = collect($mainMenu->menuItems());
+              $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
+              
+              @endphp
+
+              @if ($viewMenuItem)
+              <a href="{{ $viewMenuItem->url }}" class="th-btn style4">
+                Order Now <i class="fas fa-chevron-right ms-2"></i>
+              </a>
+              @endif
             </div>
           </div>
         </div>

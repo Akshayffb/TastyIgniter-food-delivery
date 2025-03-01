@@ -1,4 +1,4 @@
-1740678561a:1:{s:26:"locallist\search.blade.php";a:5:{s:8:"fileName";s:26:"locallist\search.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:958:"<div class="card mb-3">
+1740839624a:1:{s:26:"locallist\search.blade.php";a:5:{s:8:"fileName";s:26:"locallist\search.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:958:"<div class="card mb-3">
     <div class="card-body">
         <form
             method="GET"

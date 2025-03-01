@@ -1,4 +1,4 @@
-1740678561a:1:{s:25:"account\sidebar.blade.php";a:5:{s:8:"fileName";s:25:"account\sidebar.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1399:"<div class="sidebar-account nicescroll p-2 pt-5" role="navigation">
+1740839622a:1:{s:25:"account\sidebar.blade.php";a:5:{s:8:"fileName";s:25:"account\sidebar.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1399:"<div class="sidebar-account nicescroll p-2 pt-5" role="navigation">
     <div class="nav flex-column">
         <a
         href="{{ site_url($accountPage) }}"

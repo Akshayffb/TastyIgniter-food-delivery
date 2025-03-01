@@ -1,4 +1,4 @@
-1740678561a:1:{s:22:"booking\info.blade.php";a:5:{s:8:"fileName";s:22:"booking\info.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1165:"<div class="row mb-4">
+1740839622a:1:{s:22:"booking\info.blade.php";a:5:{s:8:"fileName";s:22:"booking\info.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1165:"<div class="row mb-4">
     @if ($bookingLocation->hasMedia())
         <div class="col-sm-2">
             <img class="img-responsive" src="{{ $bookingLocation->getThumb() }}">

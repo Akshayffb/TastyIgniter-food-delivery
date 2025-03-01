@@ -1,4 +1,4 @@
-1740678567a:1:{s:24:"slider/default.blade.php";a:5:{s:8:"fileName";s:24:"slider/default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2320:"<div
+1740839636a:1:{s:24:"slider/default.blade.php";a:5:{s:8:"fileName";s:24:"slider/default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2320:"<div
     id="{{ $sliderSelectorId }}"
     class="carousel slide carousel-fade"
     data-bs-ride="carousel"

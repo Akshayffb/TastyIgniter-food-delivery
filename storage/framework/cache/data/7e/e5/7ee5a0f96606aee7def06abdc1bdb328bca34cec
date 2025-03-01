@@ -1,4 +1,4 @@
-1740678567a:1:{s:31:"categories/home_items.blade.php";a:5:{s:8:"fileName";s:31:"categories/home_items.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1652:"@foreach ($categories as $category)
+1740839637a:1:{s:31:"categories/home_items.blade.php";a:5:{s:8:"fileName";s:31:"categories/home_items.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1652:"@foreach ($categories as $category)
 @continue(in_array($category->getKey(), $hiddenCategories))
 @continue($hideEmptyCategory && $category->count_menus < 1)
 

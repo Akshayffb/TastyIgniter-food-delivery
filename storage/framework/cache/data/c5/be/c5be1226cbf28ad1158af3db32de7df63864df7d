@@ -1,4 +1,4 @@
-1740678567a:1:{s:31:"featuredItems/default.blade.php";a:5:{s:8:"fileName";s:31:"featuredItems/default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2643:"@if (count($featuredMenuItems))
+1740839638a:1:{s:31:"featuredItems/default.blade.php";a:5:{s:8:"fileName";s:31:"featuredItems/default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2643:"@if (count($featuredMenuItems))
     <div id="featured-menu-box" class="module-box py-2">
         <div class="text-center">
             <h2 class="text-white mb-3">{{ $featuredTitle }}</h2>

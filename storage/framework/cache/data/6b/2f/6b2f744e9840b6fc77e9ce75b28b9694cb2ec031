@@ -1,4 +1,4 @@
-1740678561a:1:{s:26:"booking\timeslot.blade.php";a:5:{s:8:"fileName";s:26:"booking\timeslot.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1290:"<p>
+1740839622a:1:{s:26:"booking\timeslot.blade.php";a:5:{s:8:"fileName";s:26:"booking\timeslot.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:1290:"<p>
     {{ sprintf(lang('igniter.reservation::default.text_time_msg'), $longDateTime, $guestSize) }}
 </p>
 

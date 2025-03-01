@@ -31,7 +31,7 @@
     <div class="menu-area">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-auto w-auto">
+          <div class="col-auto">
             <div class="header-logo">
               <?php echo controller()->renderPartial('layout/logo'); ?>
             </div>
@@ -46,9 +46,9 @@
 
           <div class="col-auto d-none d-xl-block">
             <div class="header-button">
-              <button type="button" class="simple-icon searchBoxToggler">
+              <!-- <button type="button" class="simple-icon searchBoxToggler">
                 <i class="far fa-search"></i>
-              </button>
+              </button> -->
               <button type="button" class="simple-icon sideMenuToggler">
                 <span class="badge">5</span>
                 <i class="fa-regular fa-cart-shopping"></i>
@@ -57,7 +57,6 @@
               <?php
               $menuItems = collect($mainMenu->menuItems());
               $viewMenuItem = $menuItems->firstWhere('code', 'view-menu');
-              
               ?>
 
               <?php if($viewMenuItem): ?>

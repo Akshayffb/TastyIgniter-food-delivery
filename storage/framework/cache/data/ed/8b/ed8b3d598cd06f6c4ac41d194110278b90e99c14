@@ -1,4 +1,4 @@
-1740682525a:1:{s:14:"head.blade.php";a:5:{s:8:"fileName";s:14:"head.blade.php";s:5:"mTime";i:1740577685;s:7:"content";s:1847:"{!! get_metas() !!}
+1740857173a:1:{s:14:"head.blade.php";a:5:{s:8:"fileName";s:14:"head.blade.php";s:5:"mTime";i:1740577685;s:7:"content";s:1847:"{!! get_metas() !!}
 <title>{{ sprintf(lang('main::lang.site_title'), lang(get_title()), setting('site_name')) }}</title>
 <link rel="stylesheet" href="{{ asset('app/admin/assets/css/admin.css') }}" id="flame-css">
 {!! get_style_tags() !!}

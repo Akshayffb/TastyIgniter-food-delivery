@@ -1,4 +1,4 @@
-1740678562a:1:{s:29:"localSearch\default.blade.php";a:5:{s:8:"fileName";s:29:"localSearch\default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:359:"<div id="local-box" class="local-box-fluid">
+1740839624a:1:{s:29:"localSearch\default.blade.php";a:5:{s:8:"fileName";s:29:"localSearch\default.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:359:"<div id="local-box" class="local-box-fluid">
     @if ($hideSearch)
         <a
             class="btn btn-block btn-primary"

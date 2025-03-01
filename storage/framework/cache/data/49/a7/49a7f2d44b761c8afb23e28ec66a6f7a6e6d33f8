@@ -1,4 +1,4 @@
-1740678561a:1:{s:26:"localbox\box_one.blade.php";a:5:{s:8:"fileName";s:26:"localbox\box_one.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2019:"@if ($showLocalThumb)
+1740839623a:1:{s:26:"localbox\box_one.blade.php";a:5:{s:8:"fileName";s:26:"localbox\box_one.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2019:"@if ($showLocalThumb)
     <img
         class="img-fluid pull-left"
         src="{{ $locationCurrent->getThumb(['width' => $localThumbWidth, 'height' => $localThumbHeight]) }}"

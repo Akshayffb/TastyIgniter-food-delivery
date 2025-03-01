@@ -1,4 +1,4 @@
-1740678561a:1:{s:27:"localMenu\grouped.blade.php";a:5:{s:8:"fileName";s:27:"localMenu\grouped.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2404:"<div class="menu-group">
+1740839624a:1:{s:27:"localMenu\grouped.blade.php";a:5:{s:8:"fileName";s:27:"localMenu\grouped.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:2404:"<div class="menu-group">
     @forelse ($groupedMenuItems as $categoryId => $menuList)
         <div @class(['menu-group-item'])>
             @if ($categoryId > 0)

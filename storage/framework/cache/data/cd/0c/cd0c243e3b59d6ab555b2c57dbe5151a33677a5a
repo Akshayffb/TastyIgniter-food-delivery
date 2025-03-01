@@ -1,4 +1,4 @@
-1740678561a:1:{s:26:"locallist\filter.blade.php";a:5:{s:8:"fileName";s:26:"locallist\filter.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:925:"@if ($searchQueryPosition->isValid())
+1740839624a:1:{s:26:"locallist\filter.blade.php";a:5:{s:8:"fileName";s:26:"locallist\filter.blade.php";s:5:"mTime";i:1697868728;s:7:"content";s:925:"@if ($searchQueryPosition->isValid())
 <div class="card mb-3">
     <div class="card-body">
         <div class="d-flex">
