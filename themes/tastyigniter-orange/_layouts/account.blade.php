@@ -24,7 +24,7 @@ description: Account layout
         @partial('header')
     </header>
 
-    <main role="main">
+    <main role="main" class="p-0">
         <div id="notification">
             @partial('flash')
         </div>

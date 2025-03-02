@@ -38,7 +38,7 @@ description: 'Local layout'
         @partial('header')
     </header>
 
-    <main role="main">
+    <main role="main" class="p-0">
         <div id="page-wrapper">
             <div class="container">
                 <div class="row py-4">
@@ -72,5 +72,25 @@ description: 'Local layout'
     </div>
     @partial('eucookiebanner')
     @partial('scripts')
+
+
+    @php
+    $jsPath = rtrim(theme_url('tastyigniter-orange/assets/custom/js'), '/') . '/';
+    $jsFiles = [
+    'vendor/jquery-3.6.0.min.js',
+    'swiper-bundle.min.js',
+    'bootstrap.min.js',
+    'jquery.magnific-popup.min.js',
+    'jquery.counterup.min.js',
+    'jquery-ui.min.js',
+    'imagesloaded.pkgd.min.js',
+    'isotope.pkgd.min.js',
+    'main.js'
+    ];
+    @endphp
+
+    @foreach ($jsFiles as $file)
+    <script src="{{ $jsPath . $file }}"></script>
+    @endforeach
 </body>
 </html>

@@ -28,7 +28,7 @@ description: Static layout for static pages
         @partial('header')
     </header>
 
-    <main role="main">
+    <main role="main" class="p-0">
         <div id="page-wrapper">
             <div class="container py-4">
                 <div id="heading" class="heading-section py-5">

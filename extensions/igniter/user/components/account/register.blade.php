@@ -77,6 +77,7 @@
             value="{{ set_value('telephone') }}"
             name="telephone"
             data-control="country-code-picker"
+            placeholder="Phone Number"
         >
         {!! form_error('telephone', '<span class="text-danger">', '</span>') !!}
     </div>
@@ -127,7 +128,7 @@
         </div>
         <div class="col-12 text-center">
             <a
-                href="{{ site_url('account/login') }}"
+                href="{{ site_url('/login') }}"
                 class="btn btn-link"
             >@lang('igniter.user::default.login.button_login')</a>
         </div>
