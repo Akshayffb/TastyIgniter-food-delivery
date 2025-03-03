@@ -45,10 +45,10 @@
 
                     <div class="col-auto d-none d-xl-block">
                         <div class="header-button">
-                            <button type="button" class="simple-icon sideMenuToggler">
+                            <a href="/cart" class="simple-icon">
                                 <span class="badge">5</span>
                                 <i class="fa-regular fa-cart-shopping"></i>
-                            </button>
+                            </a>
 
                             @php
                             $menuItems = collect($mainMenu->menuItems());

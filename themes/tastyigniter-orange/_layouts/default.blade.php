@@ -63,7 +63,8 @@ description: Default layout
     'jquery-ui.min.js',
     'imagesloaded.pkgd.min.js',
     'isotope.pkgd.min.js',
-    'main.js'
+    'main.js',
+    'custom.js'
     ];
     @endphp
 

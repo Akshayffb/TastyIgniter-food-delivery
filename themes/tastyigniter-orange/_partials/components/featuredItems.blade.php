@@ -9,16 +9,26 @@
             @endif
             <span class="product-tag">New</span>
             <div class="actions">
-                <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                <a href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                <a href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}" class="icon-btn"><i class="far fa-heart"></i></a>
+                <a href="#QuickView" class="icon-btn popup-content quick-view-btn"
+                    data-name="{{ $featuredItem->getBuyableName() }}"
+                    data-image="{{ $featuredItem->getThumb(['width' => $featuredWidth, 'height' => $featuredHeight]) }}"
+                    data-price="{{ currency_format($featuredItem->getBuyablePrice()) }}"
+                    data-url="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}"
+                    data-description="{{ $featuredItem->menu_description }}" data-reviews="120" data-rating="5.00">
+                    <i class="far fa-eye"></i>
+                </a>
+                <a href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}"
+                    class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                
             </div>
         </div>
         <div class="product-content">
             <a href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}"
                 class="product-category">{{ $featuredItem->locations->implode('location_name', ',') }}</a>
             <h3 class="product-title">
-                <a href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}">{{ $featuredItem->getBuyableName() }}</a>
+                <a
+                    href="{{page_url('local/menus', ['location' => optional($featuredItem->locations->first())->permalink_slug])}}?menuId={{ $featuredItem->getBuyableIdentifier() }}">{{
+                    $featuredItem->getBuyableName() }}</a>
             </h3>
             <span class="price">{{ currency_format($featuredItem->getBuyablePrice()) }}</span>
             <div class="woocommerce-product-rating">

@@ -16861,3 +16861,33 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Override boostrap btn */
+.btn.btn-primary {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--theme-color, #007bff);
+  color: var(--white-color, #fff);
+  font-family: var(--body-font, Arial, sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 21px 30px;
+  min-width: 170px;
+  border-radius: 30px;
+  transition: all 0.4s ease-out;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:active {
+  background-color: var(--title-color, #0056b3); 
+  color: var(--white-color, #fff);
+  box-shadow: none;
+}

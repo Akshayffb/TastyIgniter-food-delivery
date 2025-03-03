@@ -20,7 +20,7 @@ layout: default
 ---
 
 
-<div class="th-hero-wrapper hero-1" id="hero" data-bg-src="themes/demo/assets/img/hero/hero_bg_1_2.jpg">
+<div class="th-hero-wrapper hero-1" id="hero" data-bg-src="themes/tastyigniter-orange/assets/custom/img/hero/hero_bg_1_2.jpg">
     <div class="swiper th-slider" id="heroSlide1" data-slider-options='{"effect":"fade"}'>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -28,11 +28,11 @@ layout: default
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title" data-ani="slideinup" data-ani-delay="0.2s"><img
-                                    src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">100% Quality
+                                    src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="shape">100% Quality
                                 Foods</span>
                             <h1 class="hero-title">
                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img class="title-img" src="themes/demo/assets/img/hero/hero_title_shape.svg"
+                                    <img class="title-img" src="themes/tastyigniter-orange/assets/custom/img/hero/hero_title_shape.svg"
                                         alt="icon">
                                     Natural <span class="text-theme">Fruits</span> </span>
                                 <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">Vegetable</span>
@@ -42,16 +42,16 @@ layout: default
                         </div>
                     </div>
                     <div class="hero-img" data-ani="slideinright" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero-section-image-1.png" alt="Image">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero-section-image-1.png" alt="Image">
                     </div>
                     <div class="hero-shape1" data-ani="slideinup" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_2.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_2.png" alt="shape">
                     </div>
                     <div class="hero-shape2" data-ani="slideindown" data-ani-delay="0.6s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_2.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_2.png" alt="shape">
                     </div>
                     <div class="hero-shape3" data-ani="slideinleft" data-ani-delay="0.7s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_3.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_3.png" alt="shape">
                     </div>
                 </div>
 
@@ -61,11 +61,11 @@ layout: default
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title" data-ani="slideinup" data-ani-delay="0.2s"><img
-                                    src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">100% Organic
+                                    src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="shape">100% Organic
                                 Foods</span>
                             <h1 class="hero-title">
                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img class="title-img" src="themes/demo/assets/img/hero/hero_title_shape.svg"
+                                    <img class="title-img" src="themes/tastyigniter-orange/assets/custom/img/hero/hero_title_shape.svg"
                                         alt="icon">
                                     Organic <span class="text-theme">Fruits</span> </span>
                                 <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">For Health</span>
@@ -75,16 +75,16 @@ layout: default
                         </div>
                     </div>
                     <div class="hero-img" data-ani="slideinright" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero-section-image-2-1.png" alt="Image">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero-section-image-2-1.png" alt="Image">
                     </div>
                     <div class="hero-shape1" data-ani="slideinup" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_1.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_1.png" alt="shape">
                     </div>
                     <div class="hero-shape2" data-ani="slideindown" data-ani-delay="0.6s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_2.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_2.png" alt="shape">
                     </div>
                     <div class="hero-shape3" data-ani="slideinleft" data-ani-delay="0.7s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_3.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_3.png" alt="shape">
                     </div>
                 </div>
 
@@ -94,11 +94,11 @@ layout: default
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title" data-ani="slideinup" data-ani-delay="0.2s"><img
-                                    src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">100% Fresh
+                                    src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="shape">100% Fresh
                                 Foods</span>
                             <h1 class="hero-title">
                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img class="title-img" src="themes/demo/assets/img/hero/hero_title_shape.svg"
+                                    <img class="title-img" src="themes/tastyigniter-orange/assets/custom/img/hero/hero_title_shape.svg"
                                         alt="icon">
                                     Quality <span class="text-theme">Fruits</span> </span>
                                 <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">Farming</span>
@@ -108,16 +108,16 @@ layout: default
                         </div>
                     </div>
                     <div class="hero-img" data-ani="slideinright" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero-section-image-3.png" alt="Image">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero-section-image-3.png" alt="Image">
                     </div>
                     <div class="hero-shape1" data-ani="slideinup" data-ani-delay="0.5s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_1.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_1.png" alt="shape">
                     </div>
                     <div class="hero-shape2" data-ani="slideindown" data-ani-delay="0.6s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_2.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_2.png" alt="shape">
                     </div>
                     <div class="hero-shape3" data-ani="slideinleft" data-ani-delay="0.7s">
-                        <img src="themes/demo/assets/img/hero/hero_shape_1_3.png" alt="shape">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_3.png" alt="shape">
                     </div>
                 </div>
 
@@ -125,14 +125,14 @@ layout: default
         </div>
     </div>
     <div class="hero-shape4">
-        <img class="svg-img" src="themes/demo/assets/img/hero/hero_shape_1_4.svg" alt="shape">
+        <img class="svg-img" src="themes/tastyigniter-orange/assets/custom/img/hero/hero_shape_1_4.svg" alt="shape">
     </div>
 </div>
 
 <section class="space-top">
     <div class="container">
         <div class="title-area text-center">
-            <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Food
+            <span class="sub-title"><img src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="Icon">Food
                 Category</span>
             <h2 class="sec-title">What We’re Offering</h2>
         </div>
@@ -141,9 +141,9 @@ layout: default
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="category-card">
-                        <div class="box-shape" data-bg-src="themes/demo/assets/img/bg/category_card_bg.png"></div>
-                        <div class="box-icon" data-mask-src="themes/demo/assets/img/bg/category_card_icon_bg.png">
-                            <img src="themes/demo/assets/img/icon/category_card_1.svg" alt="Image">
+                        <div class="box-shape" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_bg.png"></div>
+                        <div class="box-icon" data-mask-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_icon_bg.png">
+                            <img src="themes/tastyigniter-orange/assets/custom/img/icon/category_card_1.svg" alt="Image">
                         </div>
                         <p class="box-subtitle">Product (08)</p>
                         <h3 class="box-title"><a href="shop.html">Fresh Vegetable</a></h3>
@@ -152,9 +152,9 @@ layout: default
 
                 <div class="swiper-slide">
                     <div class="category-card">
-                        <div class="box-shape" data-bg-src="themes/demo/assets/img/bg/category_card_bg.png"></div>
-                        <div class="box-icon" data-mask-src="themes/demo/assets/img/bg/category_card_icon_bg.png">
-                            <img src="themes/demo/assets/img/icon/category_card_2.svg" alt="Image">
+                        <div class="box-shape" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_bg.png"></div>
+                        <div class="box-icon" data-mask-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_icon_bg.png">
+                            <img src="themes/tastyigniter-orange/assets/custom/img/icon/category_card_2.svg" alt="Image">
                         </div>
                         <p class="box-subtitle">Product (05)</p>
                         <h3 class="box-title"><a href="shop.html">Natural Fruits</a></h3>
@@ -163,9 +163,9 @@ layout: default
 
                 <div class="swiper-slide">
                     <div class="category-card">
-                        <div class="box-shape" data-bg-src="themes/demo/assets/img/bg/category_card_bg.png"></div>
-                        <div class="box-icon" data-mask-src="themes/demo/assets/img/bg/category_card_icon_bg.png">
-                            <img src="themes/demo/assets/img/icon/category_card_3.svg" alt="Image">
+                        <div class="box-shape" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_bg.png"></div>
+                        <div class="box-icon" data-mask-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_icon_bg.png">
+                            <img src="themes/tastyigniter-orange/assets/custom/img/icon/category_card_3.svg" alt="Image">
                         </div>
                         <p class="box-subtitle">Product (04)</p>
                         <h3 class="box-title"><a href="shop.html">Dairy Products</a></h3>
@@ -174,9 +174,9 @@ layout: default
 
                 <div class="swiper-slide">
                     <div class="category-card">
-                        <div class="box-shape" data-bg-src="themes/demo/assets/img/bg/category_card_bg.png"></div>
-                        <div class="box-icon" data-mask-src="themes/demo/assets/img/bg/category_card_icon_bg.png">
-                            <img src="themes/demo/assets/img/icon/category_card_4.svg" alt="Image">
+                        <div class="box-shape" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_bg.png"></div>
+                        <div class="box-icon" data-mask-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_icon_bg.png">
+                            <img src="themes/tastyigniter-orange/assets/custom/img/icon/category_card_4.svg" alt="Image">
                         </div>
                         <p class="box-subtitle">Product (07)</p>
                         <h3 class="box-title"><a href="shop.html">Tea & Coffee</a></h3>
@@ -185,15 +185,14 @@ layout: default
 
                 <div class="swiper-slide">
                     <div class="category-card">
-                        <div class="box-shape" data-bg-src="themes/demo/assets/img/bg/category_card_bg.png"></div>
-                        <div class="box-icon" data-mask-src="themes/demo/assets/img/bg/category_card_icon_bg.png">
-                            <img src="themes/demo/assets/img/icon/category_card_5.svg" alt="Image">
+                        <div class="box-shape" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_bg.png"></div>
+                        <div class="box-icon" data-mask-src="themes/tastyigniter-orange/assets/custom/img/bg/category_card_icon_bg.png">
+                            <img src="themes/tastyigniter-orange/assets/custom/img/icon/category_card_5.svg" alt="Image">
                         </div>
                         <p class="box-subtitle">Product (10)</p>
                         <h3 class="box-title"><a href="shop.html">Meat and Fish</a></h3>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -205,13 +204,13 @@ layout: default
             <div class="col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box1">
                     <div class="img1">
-                        <img src="themes/demo/assets/img/gallery/about-us-image.jpg" alt="About">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/gallery/about-us-image.jpg" alt="About">
                     </div>
                     <div class="img2">
-                        <img src="themes/demo/assets/img/gallery/about-us-image2.jpg" alt="Image">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/gallery/about-us-image2.jpg" alt="Image">
                     </div>
                     <div class="shape1 movingX">
-                        <img src="themes/demo/assets/img/hero/hero-section-image-1.png" alt="Image">
+                        <img src="themes/tastyigniter-orange/assets/custom/img/hero/hero-section-image-1.png" alt="Image">
                     </div>
                     <div class="year-counter">
                         <div class="year-counter_number"><span class="counter-number">23</span>+</div>
@@ -222,7 +221,7 @@ layout: default
             <div class="col-xl-6">
                 <div class="ps-xxl-5 ps-xl-2 ms-xl-1 text-center text-xl-start">
                     <div class="title-area mb-32">
-                        <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg"
+                        <span class="sub-title"><img src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg"
                                 alt="shape">About Our
                             Company</span>
                         <h2 class="sec-title">Eating Right Start With Organic Food</h2>
@@ -234,13 +233,13 @@ layout: default
                     <div class="about-feature-wrap">
                         <div class="about-feature">
                             <div class="box-icon">
-                                <img src="themes/demo/assets/img/icon/about_feature_1.svg" alt="Icon">
+                                <img src="themes/tastyigniter-orange/assets/custom/img/icon/about_feature_1.svg" alt="Icon">
                             </div>
                             <h3 class="box-title">The Agriculture Leader</h3>
                         </div>
                         <div class="about-feature">
                             <div class="box-icon">
-                                <img src="themes/demo/assets/img/icon/about_feature_2.svg" alt="Icon">
+                                <img src="themes/tastyigniter-orange/assets/custom/img/icon/about_feature_2.svg" alt="Icon">
                             </div>
                             <h3 class="box-title">Smart Organic Solutions</h3>
                         </div>
@@ -258,7 +257,7 @@ layout: default
     <div class="container z-index-common">
         <div class="row gy-30">
             <div class="col-xl-6">
-                <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/fresh-salad.jpg">
+                <div class="offer-card mega-hover" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/fresh-salad.jpg">
                     <span class="h6 box-subtitle">Get Extra <span class="text-theme">50% Off</span></span>
                     <h3 class="box-title">Fresh Vegetable & <br> Organic Fruits</h3>
 
@@ -275,7 +274,7 @@ layout: default
                 </div>
             </div>
             <div class="col-xl-6">
-                <div class="offer-card mega-hover" data-bg-src="themes/demo/assets/img/bg/green-vegs.jpg">
+                <div class="offer-card mega-hover" data-bg-src="themes/tastyigniter-orange/assets/custom/img/bg/green-vegs.jpg">
                     <span class="h6 box-subtitle">Get Extra <span class="text-theme">50% Off</span></span>
                     <h3 class="box-title">Green & Organic <br> Vegetables</h3>
 
@@ -297,13 +296,13 @@ layout: default
 
 <section class="bg-smoke2 space" id="shop-sec">
     <div class="shape-mockup" data-top="0" data-left="0"><img
-            src="themes/demo/assets/img/shape/Organic-salad-bg-img.jpg" alt="shape">
+            src="themes/tastyigniter-orange/assets/custom/img/shape/Organic-salad-bg-img.jpg" alt="shape">
     </div>
     <div class="shape-mockup" data-bottom="0" data-right="0"><img
-            src="themes/demo/assets/img/shape/Organic-salad-bg-img2.jpg" alt="shape"></div>
+            src="themes/tastyigniter-orange/assets/custom/img/shape/Organic-salad-bg-img2.jpg" alt="shape"></div>
     <div class="container text-center">
         <div class="title-area text-center">
-            <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="Icon">Organic
+            <span class="sub-title"><img src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="Icon">Organic
                 Products</span>
             <h2 class="sec-title">Organic & Fresh Products Daily!</h2>
         </div>
@@ -322,7 +321,7 @@ layout: default
         <div class="row">
             <div class="col-xl-6 text-center text-xl-start">
                 <div class="title-area">
-                    <span class="sub-title"><img src="themes/demo/assets/img/theme-img/title_icon.svg" alt="shape">Why
+                    <span class="sub-title"><img src="themes/tastyigniter-orange/assets/custom/img/theme-img/title_icon.svg" alt="shape">Why
                         Choose
                         Us</span>
                     <h2 class="sec-title">Nourish Your Body with Pure Organic Goodness!</h2>
@@ -339,7 +338,7 @@ layout: default
                         <div class="choose-feature-wrap">
                             <div class="choose-feature">
                                 <div class="box-icon">
-                                    <img src="themes/demo/assets/img/icon/choose_feature_1.svg" alt="Icon">
+                                    <img src="themes/tastyigniter-orange/assets/custom/img/icon/choose_feature_1.svg" alt="Icon">
                                 </div>
                                 <h3 class="box-title">100% Organic</h3>
                                 <p class="box-text">Our products are certified by reputable organic.</p>
@@ -446,3 +445,46 @@ layout: default
         </div>
     </div>
 </section>
+
+<div id="QuickView" class="white-popup mfp-hide">
+    <div class="container bg-white rounded-10">
+        <div class="row gx-60">
+            <div class="col-lg-6">
+                <div class="product-big-img">
+                    <div class="img">
+                        <img id="modalProductImage" src="" alt="Product Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <div class="product-about">
+                    <p class="price"><span id="modalProductPrice"></span></p>
+                    <h2 class="product-title" id="modalProductName"></h2>
+                    <div class="product-rating">
+                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                            <span id="modalProductRating"></span>
+                            </div>
+                            <a href="shop-details.html" class="woocommerce-review-link">(<span id="modalProductReviews"></span> customer reviews)</a>
+                    </div>
+                    <p class="text" id="modalProductDescription"></p>
+                    
+                    <div class="actions">
+                        <div class="quantity">
+                            <input type="number" class="qty-input" step="1" min="1" max="100" name="quantity"
+                                value="1" title="Qty">
+                            <button class="quantity-plus qty-btn"><i class="far fa-chevron-up"></i></button>
+                            <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
+                        </div>
+                        <button id="modalAddToCart" class="th-btn">Add to Cart</button>
+                    </div>
+                    <!-- <div class="product_meta">
+                        <span class="sku_wrapper">SKU: <span class="sku">Bosco-Apple-Fruit</span></span>
+                        <span class="posted_in">Category: <a href="shop.html">Fresh Fruits</a></span>
+                        <span>Tags: <a href="shop.html">Fruits</a><a href="shop.html">Organic</a></span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    </div>
+</div>
